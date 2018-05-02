@@ -1,0 +1,255 @@
+html, body{
+    /* padding: 0;
+    margin: 0; */
+    background: #ccc;
+}
+*{
+    outline: none;
+}
+textarea{
+    resize: none;
+}
+
+.actionBar{
+    margin: 20px auto;
+}
+.main_w{
+    padding: 30px 0px 30px;
+}
+.paper{
+    width: 900px;
+    background: white;
+    margin: auto;
+    padding: 20px 40px 20px 20px;
+    overflow: hidden;
+}
+
+.top_w{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left_w textarea{
+    width: 300px;
+}
+
+
+.right_w{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.right_align_input_group input{
+    width: 200px;
+}
+
+.invoice_id_input_group{
+    width: 200px;
+    float: right;
+}
+
+.right_align_input_group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.balance_due_w{
+    width: 350px;
+    height: 50px;
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #777777;
+}
+
+.table_w{
+    margin-bottom: 30px;
+}
+.table_header{
+    display: flex;
+    background: #353940;
+    color: white;
+    border-radius: 5px;
+}
+    .table_header div{
+        margin: 3px;
+    }
+.table_row{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.table_item{
+    width: 600px;
+    margin: 3px 3px 3px 0px;
+}
+.table_quantity{
+    width: 100px;
+    margin: 3px;
+}
+.table_rate{
+    width: 100px;
+    margin: 3px;
+}
+.table_amount{
+    width: 100px;
+    margin: 3px;
+}
+.remove_line{
+    position: absolute;
+    right: -20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.sum_w{    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.label_w{
+    margin-right: 10px;
+}
+
+.dropzone_desc{
+    text-align: center;
+    margin-top: 84px;
+    font-size: 20px;
+    color: #595959;
+    font-weight: 600;
+}
+
+.logo_img{
+    max-width: 300px;
+    max-height: 250px;
+    border-radius: 10px;
+}
+.logo_w{
+    position: relative;
+    display: inline-block;
+}
+.remove_logo{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: #767676;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    border-radius: 1px;
+}
+.inline_label{
+    margin: 0px;
+    padding: calc(.375rem + 1px) calc(.75rem + 1px);
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+}
+.inline_input{
+    display: block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.width_100{
+    width: 100px;
+}
+.width_150{
+    width: 150px;
+}
+.width_200{
+    width: 200px;
+}
+.width_400{
+    width: 400px;
+}
+.right_text{
+    text-align: right;
+}
+.title{
+    font-size: 45px;
+    font-weight: 300;
+    margin: 10px;
+}
+.balance_due{    
+    font-weight: bold;
+    color: #777777;
+}
+.inline_label_header{
+    margin: 0px;
+    padding: calc(0px + 1px) calc(.75rem + 1px);
+    line-height: 1.5;
+    color: white
+}
+.inline_input_header{
+    display: block;
+    padding: 0px .75rem;
+    line-height: 1.5;
+    color: white;
+    background: #353940;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.currency_select{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.currency_select select{
+    margin-left: 10px;
+}
+
+.invoice_list{
+    cursor: pointer;
+}
+
+.item_wrapper{
+    display: flex;
+}
+.item_wrapper div{
+    padding-left: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.item_no{
+    width: 5%;
+}
+.item_number{
+    width: 20%;
+}
+.item_from{
+    width: 20%;
+}
+.item_to{
+    width: 25%;
+}
+.item_time{
+    width: 30%;
+}

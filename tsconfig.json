@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es6",
+    "moduleResolution": "node",
+    "declaration": false,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "jsx": "react",
+    "noLib": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "dom",
+      "es7"
+    ]
+  },
+  "include": [
+    "client/src/**/*"
+  ],
+  "compileOnSave": false,
+  "exclude": [
+    "node_modules"
+  ]
+}
